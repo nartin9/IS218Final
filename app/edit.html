@@ -1,0 +1,41 @@
+{% extends "layout.html" %}
+{% block content %}
+<form action="/edit/{{addr.id}}" method="post">
+    <div class="row">
+        <div class="col">
+            <label for="first">First Name</label>
+            <input id="first" type="text" class="form-control" placeholder="First Name" name="first" value="{{addr.first}}">
+        </div>
+        <div class="col">
+            <label for="last">Last Name</label>
+            <input id="last" type="text" class="form-control" placeholder="Last Name" name="last" value="{{addr.last}}">
+        </div>
+        <div class="col">
+            <label for="Address">LonD</label>
+            <input id="Address" type="text" class="form-control" placeholder="Address" name="Address" value="{{addr.Address}}">
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col">
+            <label for="City">LatD</label>
+            <input id="City" type="text" class="form-control" placeholder="City" name="City" value="{{addr.City}}">
+        </div>
+        <div class="col">
+            <label for="State">LatM</label>
+            <input id="State" type="text" class="form-control" placeholder="State" name="State" value="{{addr.State}}">
+        </div>
+    </div>
+    <div class="row">
+        <div class="col">
+            <label for="zip">ZIP Code</label>
+
+            <input id="zip" type="text" class="form-control" placeholder="ZIP Code" name="zip" value="{{addr.zip}}">
+        </div>
+    </div>
+
+    <button type="submit" class="btn btn-success">Save</button>
+
+
+</form>
+{% endblock %}
