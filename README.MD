@@ -1,19 +1,41 @@
-# Project Description
-This project is a homework assignment to teach how to get Pycharm setup with Docker, Flask, MySQL, and Postman
+# IS218 FINAL PROJECT
+## Project Description
+This project is a homework assignment to that shows how to set up a structured
+ database using Docker, Flask, MySQL, and Postman.
+ 
+ Also viewing and editing database on browser.
 
-[Download Assignment PDF Here](PPFSQL-Homework.pdf)
+# Browser/Database Screenshots
+### Database Screenshot
+![database](screenshots/database.PNG)
+### Browser Screenshot
+![browser](screenshots/browser.PNG)
+### One Record Screenshot
+![record](screenshots/record.PNG)
+### New Record Screenshot
+![new input](screenshots/new1.PNG)
 
-[View Assignment Video Here](https://youtu.be/QbMWNgrfAFg)
+![new input](screenshots/new2.PNG)
+### Edited Screenshot
+![edited input](screenshots/edit.PNG)
+### Delete Screenshot
+![deleted input](screenshots/delete.PNG)
 
-# Readings
-* [What is an HTTP API?](https://www.smashingmagazine.com/2018/01/understanding-using-rest-api/)
-* [What is JSON?](https://www.w3schools.com/whatis/whatis_json.asp)
-* [What is SQL?](http://www.sqlcourse.com/intro.html)
-* [What is MySQL](https://www.hostinger.com/tutorials/what-is-mysql)
-* [What is Docker Compose?](https://www.tutorialspoint.com/docker/docker_compose.htm)
-* [What is Flask?](https://en.wikipedia.org/wiki/Flask_(web_framework))
-# Useful Links
-* [Flask Homepage and Documentation](https://flask.palletsprojects.com/en/1.1.x/)
-* [JSON Spec Reference](https://www.json.org/json-en.html)
-* [SimpleJSON Reference](https://simplejson.readthedocs.io/en/latest/)
-* [W3 Schools SQL Tutorial and Reference](https://www.w3schools.com/sql/)
+# Postman Screenshots
+ ### Postman Records Screenshot
+![records](screenshots/postmanRecord.PNG)
+### Postman GET Screenshot
+![get](screenshots/postmanGet.PNG)
+### Postman POST Screenshot
+![post](screenshots/postmanPost1.PNG)
+
+![post](screenshots/postmanPost2.PNG)
+### Postman PUT Screenshot
+![put](screenshots/postmanPut1.PNG)
+
+![put](screenshots/postmanPut2.PNG)
+ ### Postman DELETE Screenshot
+![delete](screenshots/postmanDelete1.PNG)
+
+![delete](screenshots/postmanDelete2.PNG)
+
